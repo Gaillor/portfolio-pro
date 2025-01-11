@@ -40,10 +40,9 @@ const Hero = () => {
             </div>
           </div>
           <div className="relative">
-            {/* Remplacez le src par l'URL de votre photo */}
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-paddy-500 shadow-xl">
               <img
-                src="VOTRE_URL_PHOTO"
+                src="/images/profile.jpg"
                 alt="Photo de profil"
                 className="w-full h-full object-cover"
               />

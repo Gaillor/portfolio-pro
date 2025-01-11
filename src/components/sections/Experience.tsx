@@ -5,35 +5,35 @@ const academicExperience = [
   {
     title: 'Master STRI',
     company: 'Université Paul Sabatier',
-    period: '2023 - Présent',
+    period: '2024 - Présent',
     description: 'Spécialisation en Services des Télécoms, Réseaux et Infrastructures',
   },
   {
     title: 'Licence Info, Réseaux et Télécoms',
     company: 'Université Paul Sabatier',
-    period: '2022 - 2023',
+    period: '2023 - 2024',
     description: 'Formation en informatique avec focus sur les réseaux et télécommunications',
   },
   {
     title: 'L1-L2 Maths-Info',
-    company: 'Université Paul Sabatier',
-    period: '2020 - 2022',
+    company: 'Université Clermont Auvergne',
+    period: '2021 - 2023',
     description: 'Fondamentaux en mathématiques et informatique',
   },
 ];
 
 const professionalExperience = [
   {
-    title: 'Stage - Ingénieur Réseau Junior',
-    company: 'Entreprise Télécom',
-    period: '2023 - 3 mois',
+    title: 'Alternance - Analyste concepteur réseau',
+    company: 'Orange SA',
+    period: '2024 - present',
     description: 'Configuration et maintenance des équipements réseau, support technique niveau 2',
   },
   {
-    title: 'Stage - Assistant Admin Sys',
-    company: 'ESN',
-    period: '2022 - 2 mois',
-    description: 'Administration système Linux, virtualisation et support utilisateurs',
+    title: 'Alternance - DevOps',
+    company: 'Saluto',
+    period: '2023 - 2024',
+    description: 'Mise en place d\'une infrastructure cloud native d\'une application',
   },
 ];
 
