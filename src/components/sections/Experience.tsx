@@ -25,13 +25,13 @@ const academicExperience = [
 const professionalExperience = [
   {
     title: 'Alternance - Analyste concepteur réseau',
-    company: 'Orange SA',
+    company: 'Orange SA - Balma, 31130',
     period: '2024 - present',
     description: 'Configuration et maintenance des équipements réseau, support technique niveau 2',
   },
   {
     title: 'Alternance - DevOps',
-    company: 'Saluto',
+    company: 'Saluto - Seilh, 31840',
     period: '2023 - 2024',
     description: 'Mise en place d\'une infrastructure cloud native d\'une application',
   },

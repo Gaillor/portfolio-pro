@@ -3,20 +3,20 @@ import { Book, Code, Cpu } from 'lucide-react';
 
 const extraContent = [
   {
-    title: 'Blog Tech',
-    description: 'Articles sur les dernières innovations en réseaux et télécoms',
+    title: 'Agriculture',
+    description: 'Articles et revus, vidéos sur l\'agriculture',
     icon: <Book />,
     image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80',
   },
   {
-    title: 'Projets Open Source',
-    description: 'Contributions à des projets de monitoring réseau',
+    title: 'Musique',
+    description: 'Chanter par plaisir, évasion du quotidien dans la bonne humeur',
     icon: <Code />,
     image: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&q=80',
   },
   {
-    title: 'IoT & Réseaux',
-    description: 'Expérimentation avec les technologies IoT et réseaux émergents',
+    title: 'Football',
+    description: 'Jeu d\'équipe, le partage et l\'ambiance',
     icon: <Cpu />,
     image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80',
   },
