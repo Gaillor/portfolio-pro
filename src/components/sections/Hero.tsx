@@ -28,7 +28,7 @@ const Hero = () => {
               </a>
             </div>
             <div className="mt-8 flex justify-center md:justify-start space-x-6">
-              <a href="#" className="text-gray-600 hover:text-paddy-500 transition-colors">
+              <a href="https://github.com/Gaillor" className="text-gray-600 hover:text-paddy-500 transition-colors">
                 <Github size={24} />
               </a>
               <a href="#" className="text-gray-600 hover:text-paddy-500 transition-colors">

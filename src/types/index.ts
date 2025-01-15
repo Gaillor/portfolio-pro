@@ -1,11 +1,18 @@
+export type ProjectType = 'TP' | 'Pro' | 'Personnel';
+
 export interface Project {
   id: string;
   title: string;
   description: string;
+  fullDescription: string;
   image: string;
   tags: string[];
-  link?: string;
-  github?: string;
+  code: string;
+  demo: string;
+  type: ProjectType;
+  role?: string;
+  objectives?: string[];
+  results?: string[];
 }
 
 export interface Skill {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Network, Database, Globe, Server, Shield, Terminal } from 'lucide-react';
+import { Network, Database, Globe, Server, Shield, Terminal, Wrench, FileSpreadsheet} from 'lucide-react';
 
 const skillCategories = [
   {
@@ -15,7 +15,7 @@ const skillCategories = [
   {
     title: 'Infrastructure',
     icon: <Server />,
-    skills: ['VMware', 'Docker', 'Cloud', 'Linux'],
+    skills: ['Kubernetes', 'Docker', 'Cloud', 'Linux'],
   },
   {
     title: 'Sécurité',
@@ -25,12 +25,22 @@ const skillCategories = [
   {
     title: 'Développement',
     icon: <Terminal />,
-    skills: ['Python', 'Shell', 'Java', 'SQL'],
+    skills: ['Python', 'Shell', 'Java', 'Framework : React + TypeScript'],
   },
   {
     title: 'Base de données',
     icon: <Database />,
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB', 'Oracle'],
+    skills: ['MySQL', 'PostgreSQL', 'Oracle'],
+  },
+  {
+    title: 'Outils projet',
+    icon: <Wrench />,
+    skills: ['Git', 'Jira', 'Trello'],
+  },
+  {
+    title: 'Outils annexes',
+    icon: <FileSpreadsheet />,
+    skills: ['Suite Microsoft Office', 'LaTex', 'Cartographie'],
   },
 ];
 
