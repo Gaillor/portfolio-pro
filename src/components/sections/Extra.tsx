@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Book, Music, Trophy } from 'lucide-react';
+import { Book, Music, Trees, Trophy } from 'lucide-react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
@@ -8,16 +8,17 @@ import 'swiper/css/pagination';
 
 const extraContent = [
   {
-    title: 'Agriculture',
-    description: 'Articles et revus, vidéos sur l\'agriculture',
-    icon: <Book className="w-6 h-6" />,
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80',
+    title: 'La campagne',
+    description: 'Imagination, élaboration de projets en campagne',
+    icon: <Trees className="w-6 h-6" />,
+    image: 'images/extra/campagne.jpg',
+  
   },
   {
     title: 'Musique',
-    description: 'Chanter par plaisir, évasion du quotidien dans la bonne humeur',
+    description: 'Chanter par plaisir, karaoké, évasion du quotidien dans la bonne humeur',
     icon: <Music className="w-6 h-6" />,
-    image: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&q=80',
+    image: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?auto=format&fit=crop&q=80',
   },
   {
     title: 'Football',
@@ -26,6 +27,16 @@ const extraContent = [
     images: [
       'images/extra/footsalle.png',
       'images/extra/foot11.jpg',
+    ],
+  },
+  {
+    title: 'Lecture',
+    description: 'Lecture, acculturation pendant mes temps perdus',
+    icon: <Book className="w-6 h-6" />,
+    images: [
+      'images/extra/livre_k8s.jpg',
+      'images/extra/livre_reseau.jpg',
+      'images/extra/livre_musso.webp',
     ],
   },
 ];
@@ -61,7 +72,7 @@ const Extra = () => {
     <section id="extra" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">
-          Mes <span className="text-paddy-500">Autres Passions</span>
+          Mes <span className="text-paddy-500">Extras</span>
         </h2>
         <div className="relative px-8">
           <Swiper
