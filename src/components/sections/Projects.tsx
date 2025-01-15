@@ -10,6 +10,29 @@ import 'swiper/css/pagination';
 const projects: Project[] = [
   {
     id: '1',
+    title: 'Réseaux Backbone Orange',
+    description: 'Architecture au niveau physique des réseaux backbone ORANGE',
+    fullDescription: 'Etude et analyse architecturale et technologique sur l\`amélioration de la résilience et la robustesse du réseau backbone de ORANGE. Budgétisation du projet de déploiement fibre ainsi que la faisabilité du projet. Assurer le capacitaire en termes de fibre optique',
+    image: 'https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&q=80',
+    tags: ['Fibre Optique', 'WDM', 'Cartographie', 'Conception', 'Architecture', 'Excel'],
+    code: '#',
+    demo: '#',
+    type: 'Pro',
+    role: 'Apprenti concepteur analyste réseau',
+    objectives: [
+      'Robustesse du réseau',
+      'Résilience du réseau',
+      'Sécurisation de parcours',
+      'Etendre la connectivité réseau Orange'
+    ],
+    results: [
+      'Réseau supportant plus de charge',
+      'Réseau plus résilient face aux pannes,...',
+      'Anticipation des besoins bien gérée'
+    ]
+  },
+  {
+    id: '2',
     title: 'Monitoring Réseau',
     description: 'Système de surveillance réseau avec tableaux de bord en temps réel',
     fullDescription: 'Mise en place d\'une solution complète de monitoring réseau permettant la surveillance en temps réel des équipements et services critiques.',
@@ -17,7 +40,7 @@ const projects: Project[] = [
     tags: ['Python', 'Grafana', 'SNMP', 'Docker'],
     code: '#',
     demo: '#',
-    type: 'Pro',
+    type: 'TP',
     role: 'Lead Developer & Architecte Solution',
     objectives: [
       'Surveiller la disponibilité et les performances du réseau',
@@ -30,48 +53,27 @@ const projects: Project[] = [
       'Mise en place d\'un système d\'alertes efficace'
     ]
   },
-  {
-    id: '2',
-    title: 'VoIP Management',
-    description: 'Plateforme de gestion pour infrastructure VoIP d\'entreprise',
-    fullDescription: 'Développement d\'une solution de gestion VoIP complète pour faciliter l\'administration des systèmes de téléphonie IP.',
-    image: 'https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?auto=format&fit=crop&q=80',
-    tags: ['Asterisk', 'SIP', 'Python', 'MySQL'],
-    code: '#',
-    demo: '#',
-    type: 'TP',
-    role: 'Développeur Full Stack',
-    objectives: [
-      'Simplifier la gestion des extensions VoIP',
-      'Automatiser les tâches d\'administration',
-      'Améliorer l\'expérience utilisateur'
-    ],
-    results: [
-      'Interface intuitive pour la gestion des extensions',
-      'Réduction du temps de configuration',
-      'Documentation complète du système'
-    ]
-  },
+
   {
     id: '3',
-    title: 'Cloud Infrastructure',
-    description: 'Déploiement automatisé d\'infrastructure cloud hybride',
-    fullDescription: 'Conception et implémentation d\'une infrastructure cloud hybride avec orchestration automatisée des ressources.',
+    title: 'Refonte Site Web MNP',
+    description: 'Conception, élaboration d\`un site web vitrine',
+    fullDescription: 
+    'Conception, élaboration d\`un site web vitrine de l\`entreprise MNP. MNP est une société fictive que j\`ai élaboré. Ce projet est de refaire la totalité de son site web avec une techno différente de l\`ancien.',
     image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80',
-    tags: ['Terraform', 'AWS', 'Docker', 'Kubernetes'],
+    tags: ['React', 'TypeScript', 'Web', 'MNP'],
     code: '#',
     demo: '#',
     type: 'Personnel',
-    role: 'DevOps Engineer',
+    role: 'Chef de projet',
     objectives: [
-      'Automatiser le déploiement d\'infrastructure',
-      'Optimiser l\'utilisation des ressources',
-      'Assurer la haute disponibilité'
+      'Site vitrine',
+      'Design',
+      'Identité numérique'
     ],
     results: [
-      'Déploiement 5 fois plus rapide',
-      'Réduction des coûts d\'infrastructure de 30%',
-      'Zéro temps d\'arrêt lors des mises à jour'
+      'Design convivial',
+      'Identité claire',
     ]
   },
   {
