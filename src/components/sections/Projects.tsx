@@ -159,6 +159,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
               <ul className="list-disc list-inside text-gray-600 space-y-1">
                 {project.results?.map((result, index) => (
                   <li key={index}>{result}</li>
+                  
                 ))}
               </ul>
             </div>

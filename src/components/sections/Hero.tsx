@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import links from '../../utils/links.json'; 
 
 const Hero = () => {
   return (
@@ -28,13 +29,14 @@ const Hero = () => {
               </a>
             </div>
             <div className="mt-8 flex justify-center md:justify-start space-x-6">
-              <a href="https://github.com/Gaillor" className="text-gray-600 hover:text-paddy-500 transition-colors">
+              
+              <a href={links.github} target="_blank" className="text-gray-600 hover:text-paddy-500 transition-colors">
                 <Github size={24} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-paddy-500 transition-colors">
+              <a href={links.linkedin} target="_blank" className="text-gray-600 hover:text-paddy-500 transition-colors">
                 <Linkedin size={24} />
               </a>
-              <a href="#" className="text-gray-600 hover:text-paddy-500 transition-colors">
+              <a href={links.mail} className="text-gray-600 hover:text-paddy-500 transition-colors">
                 <Mail size={24} />
               </a>
             </div>
