@@ -12,7 +12,7 @@ const Hero = () => {
               <span className="text-paddy-500">Bienvenue</span> sur mon portfolio
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-              Étudiant en Master STRI, passionné par les réseaux et les télécommunications
+              Étudiant en Master STRI, spécialisé en réseaux et les télécommunications
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
               <a
