@@ -50,7 +50,7 @@ const Hero = () => {
               />
             </div>
             <div className="absolute -bottom-4 -right-4 bg-white px-6 py-2 rounded-full shadow-lg">
-              <p className="text-paddy-600 font-semibold">JINORO Gaillor</p>
+              <p className="text-paddy-600 font-semibold">JINORO Gaillor Jowardo</p>
             </div>
           </div>
         </div>
