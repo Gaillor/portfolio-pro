@@ -52,3 +52,13 @@ body {
 .swiper-pagination {
   @apply bottom-0 !important;
 }
+
+.about-pagination .swiper-pagination-bullet {
+  @apply inline-block cursor-pointer !important;
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 6px !important;
+  background-color: #e4b31d40 !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease !important;
+}

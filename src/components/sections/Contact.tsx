@@ -1,9 +1,12 @@
 import React from 'react';
 import { Mail, MapPin, Phone } from 'lucide-react';
+import links from '../../utils/links.json';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-paddy-50">
+    <section id="contact" 
+    className="py-20 bg-paddy-50"
+    >
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">
           Me <span className="text-paddy-500">Contacter</span>
@@ -18,8 +21,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-gray-600">gjinoro@gmail.com</p>
-                  <p className="text-gray-600">rtgaipro@gmail.com</p>
+                  <p className="text-gray-600">
+                    <a href={links.mail}>gjinoro@gmail.com</a>
+                  </p>
+                  <p className="text-gray-600">
+                    <a href={links.mail2}>rtgaipro@gmail.com</a>
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

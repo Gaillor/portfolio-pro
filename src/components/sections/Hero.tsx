@@ -4,14 +4,18 @@ import links from '../../utils/links.json';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-b from-paddy-50 to-white">
+    <section id="home" 
+    className="min-h-[75vh] flex items-center justify-center bg-gradient-to-b from-paddy-50 to-white bg-cover bg-center"
+    // className="min-h-screen flex items-center justify-center bg-gradient-to-b from-paddy-50 to-white"
+    style={{ background: 'URL("/images/extra/hero_bg.jpg")' }}
+    >
       <div className="container mx-auto px-4 py-20">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1 text-center md:text-left">
-            <h1 className="text-5xl md:text-7xl font-bold text-gray-800 mb-6">
+            <h1 className="text-5xl md:text-7xl font-bold text-gray-300 mb-6">
               <span className="text-paddy-500">Bienvenue</span> sur mon portfolio
             </h1>
-            <p className="text-xl text-gray-600 mb-8 max-w-2xl">
+            <p className="text-xl text-gray-400 mb-8 max-w-2xl">
               Étudiant en Master STRI, spécialisé en réseaux et les télécommunications
             </p>
             <div className="flex flex-wrap justify-center md:justify-start gap-4">
