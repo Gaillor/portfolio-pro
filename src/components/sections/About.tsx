@@ -150,9 +150,6 @@ const About = () => {
                     alt="Vision future"
                     className="rounded-lg shadow-xl"
                   />
-                  <div className="absolute -bottom-6 -right-6 bg-white p-4 rounded-lg shadow-lg">
-                    <p className="text-paddy-600 font-semibold">Vision 2025</p>
-                  </div>
                 </div>
               </div>
             </SwiperSlide>
