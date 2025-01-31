@@ -47,7 +47,7 @@ const About = () => {
             <SwiperSlide>
               <div className="grid md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                  <p className="text-lg text-gray-600">
+                  <p className="text-lg justify-start text-gray-600 text-justify">
                     Étudiant en Master STRI (Services des Télécoms, Réseaux et Infrastructures), 
                     je combine une solide formation en mathématiques et informatique avec une 
                     spécialisation en ingénierie réseaux et télécommunications.
@@ -94,14 +94,16 @@ const About = () => {
 
             <SwiperSlide>
               <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="space-y-6">
-                  <p className='ml-5 text-lg text-gray-600'>
+                <div className="space-y-6 ">
+                  <p className='ml-5 text-lg text-gray-600 text-justify'>
                     " Without commitment, you'll never start. But more importantly, without consistency,
                     you'll never finish." - Denzel Washington
                   </p>
-                  <p className='ml-5 text-lg text-gray-600'>
-                    Cette vidéo illustre parfaitement ma vision des réseaux modernes et 
-                    l'importance de l'innovation dans notre domaine.
+                  <p className='ml-5 text-lg text-gray-600 text-justify'>
+                    Cette vidéo illustre parfaitement ma vision des choses. Je m'inspire de cette citation pour aborder
+                    chaque projet avec engagement et détermination. La clé de la réussite est la persévérance et la confiance
+                    en soi. C'est ce qui me motive à aller de l'avant et à relever de nouveaux défis. Et j'espère pouvoir 
+                    transmettre cette énergie positive à mon entourage et à mes collaborateurs.
                   </p>
                 </div>
                 <div className="relative">
